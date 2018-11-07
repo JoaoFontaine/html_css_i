@@ -6,15 +6,37 @@ body {
 h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
-h1{
+main h1{
 	font-size: 60px;
 	background-color: #851944;
 	color: #FFF;
 	text-align: center;
+}
+main a {
+	color: #851944;
 }
 h2 {
 	font-size: 40px;	
 }
 p {
 	text-align: justify;
+}
+blockquote {
+	background-color: #D9E5E3;
+}
+aside {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+nav a{
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	color: inherit;
+}
+footer {
+	background-color: #000;
+	color: #F2FFFC;
+}
+article footer{
+	background-color: inherit;
+	color: inherit;
 }
