@@ -2,18 +2,27 @@ body {
 	font-family: "Crimson Text", "Times New Roman", serif;
 	background-color: #F2FFFC;
 	font-size: 120%;
+	line-height: 1.5;
 }
 h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	padding: 20px
 }
 main h1{
 	font-size: 60px;
 	background-color: #851944;
 	color: #FFF;
 	text-align: center;
+	margin: 0;
+	padding: 25px;
+	border-bottom: 10px solid black;
 }
 main a {
 	color: #851944;
+}
+main div {
+	width: 720px;
+	margin: auto;
 }
 h2 {
 	font-size: 40px;	
@@ -23,10 +32,16 @@ p {
 }
 blockquote {
 	background-color: #D9E5E3;
+	padding: 16px;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	margin: 0;
+	box-sizing: border-box;
 }
 aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
+	text-align: center;
 }
 nav a{
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
@@ -39,4 +54,10 @@ footer {
 article footer{
 	background-color: inherit;
 	color: inherit;
+}
+blockquote, aside, footer {
+    padding: 20px;
+}
+ul {
+	list-style-type: none;
 }
